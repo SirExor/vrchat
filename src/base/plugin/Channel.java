@@ -9,11 +9,11 @@ import org.bukkit.entity.Player;
  */
 public enum Channel
 {
-    OOC(ChatColor.DARK_GRAY),
-    SAY(ChatColor.GREEN, 8),
-    YELL(ChatColor.RED, 256),
-    EMOTE(ChatColor.YELLOW, 16),
-    WHISPER(ChatColor.BLUE, 2);
+    OOC(ChatColor.BLUE),
+    SAY(ChatColor.WHITE, 8),
+    YELL(ChatColor.YELLOW, 256),
+    EMOTE(ChatColor.RED, 16),
+    WHISPER(ChatColor.GRAY, 2);
 
     private final double RANGE;
     private final ChatColor COLOR;
